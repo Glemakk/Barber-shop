@@ -1,0 +1,237 @@
+:root {
+  --primary-font: "Open Sans", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --primary-bgc: #ffffff;
+  --secondary-bgc: #f7f7f7;
+  --accent-color: #ff6c00;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  /* font-size: 18px; */
+  line-height: ;
+  background-color: ;
+  color: ;
+}
+
+/* ============== COMPONENTS ============== */
+.btn-modal {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.333;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  /* color: #FFFFFF; */
+}
+
+.social-item {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.363;
+  letter-spacing: 0.2em;
+  color: #303030;
+}
+
+.social-item:hover,
+.social-item:focus {
+  color: #ff6c00;
+}
+
+.uppertitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.363;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.uppertitle-dark-theme {
+  color: rgba(157, 164, 189, 0.6);
+}
+.uppertitle-light-theme {
+  color: #303030;
+}
+
+.title-dark-theme {
+  /* color: #ffffff; */
+}
+.title-light-theme {
+  color: #303030;
+}
+
+.title {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.667;
+  letter-spacing: 0.05em;
+}
+
+.descr {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.667;
+  letter-spacing: 0.02em;
+}
+
+.descr-dark-theme {
+  color: #9da4bd;
+}
+.descr-light-theme {
+  color: #555555;
+}
+/* ============== END OF COMPONENTS ============== */
+
+/* ============== HEADER ============== */
+.nav-list,
+.header-tel {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  /* color: #ffffff; */
+}
+
+.adress {
+  font-style: normal;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.nav-links:hover,
+.nav-links:focus,
+.header-tel:hover,
+.header-tel:focus {
+  color: #ff6c00;
+}
+
+/* ============== END OF HEADER ============== */
+
+/* ============== HERO ============== */
+
+.forward-btn,
+.back-btn {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.363;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.forward-btn:hover,
+.forward-btn:focus,
+.back-btn:hover,
+.back-btn:focus {
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.181;
+  letter-spacing: 0.05em;
+  /* color: #ffffff; */
+}
+
+/* ============== END OF HERO ============== */
+
+/* ============== ABOUT ============== */
+
+.about-desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.857;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+/* ============== END OF ABOUT ============== */
+
+/* ============== SERVICES ============== */
+.services-item-name,
+.services-item-price {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.667;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+/* ============== END OF SERVICES ============== */
+
+/* ============== ACHIVEMENTS ============== */
+.achiv-item-score {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.357;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+.achiv-score-descr {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  color: #303030;
+}
+/* ============== END OF ACHIVEMENTS ============== */
+
+/* ============== MASTERS ============== */
+.masters-name {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.389;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #303030;
+}
+
+.masters-position {
+  font-weight: 40;
+  font-size: 14px;
+  line-height: 1.357;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ff6c00;
+}
+
+/* ============== END OF MASTERS ============== */
+
+/* ============== GALLERY ============== */
+
+/* ============== END OF GALLERY ============== */
+
+/* ============== CONTACT INFORMATION ============== */
+.adress-bottom-link,
+.worktime {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.667;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+/* ============== END OF CONTACT INFORMATION ============== */
+
+/* ============== FOOTER ============== */
+
+.copyright {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  /* identical to box height */
+
+  letter-spacing: 0.2em;
+
+  color: #9da4bd;
+}
+/* ============== END OF FOOTER ============== */
